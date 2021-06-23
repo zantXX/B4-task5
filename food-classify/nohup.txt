@@ -1,0 +1,7 @@
+Namespace(batch_size=64, epochs=32, logs_folder='logs', lr_step_gamma=0.1, lr_step_size=30, plots_folder='plots', train_data='../UECFOOD256', trained_models_folder='trained_models')
+Traceback (most recent call last):
+  File "train_validate.py", line 172, in <module>
+    test_model(model, dataloaders, device)
+  File "/host/space0/yamamoto-k/jupyter/notebook/B4-5/food-classify/test_model.py", line 22, in test_model
+    acc = running_corrects.double() / dataset_sizes['test']
+NameError: name 'dataset_sizes' is not defined

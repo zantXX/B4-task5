@@ -1,0 +1,166 @@
+2021-06-09 09:09:08 - INFO - Namespace(batch_size=64, epochs=32, logs_folder='logs', lr_step_gamma=0.1, lr_step_size=30, plots_folder='plots', train_data='../UECFOOD256', trained_models_folder='trained_models')
+2021-06-09 09:11:43 - INFO - Train size 28280, Val size 28280, Test size 28280
+2021-06-09 09:11:43 - INFO - Class names:['1', '10', '100', '101', '102', '103', '104', '105', '106', '107', '108', '109', '11', '110', '111', '112', '113', '114', '115', '116', '117', '118', '119', '12', '120', '121', '122', '123', '124', '125', '126', '127', '128', '129', '13', '130', '131', '132', '133', '134', '135', '136', '137', '138', '139', '14', '140', '141', '142', '143', '144', '145', '146', '147', '148', '149', '15', '150', '151', '152', '153', '154', '155', '156', '157', '158', '159', '16', '160', '161', '162', '163', '164', '165', '166', '167', '168', '169', '17', '170', '171', '172', '173', '174', '175', '176', '177', '178', '179', '18', '180', '181', '182', '183', '184', '185', '186', '187', '188', '189', '19', '190', '191', '192', '193', '194', '195', '196', '197', '198', '199', '2', '20', '200', '201', '202', '203', '204', '205', '206', '207', '208', '209', '21', '210', '211', '212', '213', '214', '215', '216', '217', '218', '219', '22', '220', '221', '222', '223', '224', '225', '226', '227', '228', '229', '23', '230', '231', '232', '233', '234', '235', '236', '237', '238', '239', '24', '240', '241', '242', '243', '244', '245', '246', '247', '248', '249', '25', '250', '251', '252', '253', '254', '255', '256', '26', '27', '28', '29', '3', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '4', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '5', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '6', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '7', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '8', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '9', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99']
+2021-06-09 09:11:43 - INFO - Total number of GPUs:2
+2021-06-09 09:11:49 - INFO - Using 2 GPUs.
+2021-06-09 09:11:51 - INFO - 
+Epoch 0/31
+2021-06-09 09:11:51 - INFO - Learning rate [0.01]
+2021-06-09 09:17:26 - INFO - 	train loss: 3.6507, train accuracy: 0.2176
+2021-06-09 09:19:29 - INFO - 	val loss: 2.0273, val accuracy: 0.4770
+2021-06-09 09:20:23 - INFO - 
+Epoch 1/31
+2021-06-09 09:20:23 - INFO - Learning rate [0.01]
+2021-06-09 09:26:01 - INFO - 	train loss: 2.4792, train accuracy: 0.3998
+2021-06-09 09:28:04 - INFO - 	val loss: 1.6937, val accuracy: 0.5651
+2021-06-09 09:28:53 - INFO - 
+Epoch 2/31
+2021-06-09 09:28:53 - INFO - Learning rate [0.01]
+2021-06-09 09:34:31 - INFO - 	train loss: 2.1840, train accuracy: 0.4646
+2021-06-09 09:36:35 - INFO - 	val loss: 1.6161, val accuracy: 0.5826
+2021-06-09 09:37:50 - INFO - 
+Epoch 3/31
+2021-06-09 09:37:50 - INFO - Learning rate [0.01]
+2021-06-09 09:43:27 - INFO - 	train loss: 2.0496, train accuracy: 0.4943
+2021-06-09 09:45:30 - INFO - 	val loss: 2.1471, val accuracy: 0.5261
+2021-06-09 09:45:30 - INFO - 
+Epoch 4/31
+2021-06-09 09:45:30 - INFO - Learning rate [0.01]
+2021-06-09 09:51:11 - INFO - 	train loss: 1.9128, train accuracy: 0.5247
+2021-06-09 09:53:14 - INFO - 	val loss: 1.1268, val accuracy: 0.6963
+2021-06-09 09:54:07 - INFO - 
+Epoch 5/31
+2021-06-09 09:54:08 - INFO - Learning rate [0.01]
+2021-06-09 09:59:46 - INFO - 	train loss: 1.7676, train accuracy: 0.5523
+2021-06-09 10:01:49 - INFO - 	val loss: 0.9709, val accuracy: 0.7320
+2021-06-09 10:02:42 - INFO - 
+Epoch 6/31
+2021-06-09 10:02:42 - INFO - Learning rate [0.01]
+2021-06-09 10:08:20 - INFO - 	train loss: 1.6534, train accuracy: 0.5801
+2021-06-09 10:10:23 - INFO - 	val loss: 0.9426, val accuracy: 0.7400
+2021-06-09 10:11:18 - INFO - 
+Epoch 7/31
+2021-06-09 10:11:18 - INFO - Learning rate [0.01]
+2021-06-09 10:16:55 - INFO - 	train loss: 1.5570, train accuracy: 0.6016
+2021-06-09 10:18:59 - INFO - 	val loss: 0.8127, val accuracy: 0.7733
+2021-06-09 10:19:52 - INFO - 
+Epoch 8/31
+2021-06-09 10:19:52 - INFO - Learning rate [0.01]
+2021-06-09 10:25:30 - INFO - 	train loss: 1.4607, train accuracy: 0.6249
+2021-06-09 10:27:33 - INFO - 	val loss: 0.8870, val accuracy: 0.7566
+2021-06-09 10:27:33 - INFO - 
+Epoch 9/31
+2021-06-09 10:27:33 - INFO - Learning rate [0.01]
+2021-06-09 10:33:14 - INFO - 	train loss: 1.3622, train accuracy: 0.6447
+2021-06-09 10:35:17 - INFO - 	val loss: 0.6000, val accuracy: 0.8224
+2021-06-09 10:36:54 - INFO - 
+Epoch 10/31
+2021-06-09 10:36:54 - INFO - Learning rate [0.01]
+2021-06-09 10:42:30 - INFO - 	train loss: 1.3029, train accuracy: 0.6553
+2021-06-09 10:44:33 - INFO - 	val loss: 0.5908, val accuracy: 0.8233
+2021-06-09 10:46:40 - INFO - 
+Epoch 11/31
+2021-06-09 10:46:40 - INFO - Learning rate [0.01]
+2021-06-09 10:52:16 - INFO - 	train loss: 1.2175, train accuracy: 0.6755
+2021-06-09 10:54:19 - INFO - 	val loss: 0.6761, val accuracy: 0.8097
+2021-06-09 10:54:19 - INFO - 
+Epoch 12/31
+2021-06-09 10:54:19 - INFO - Learning rate [0.01]
+2021-06-09 11:00:00 - INFO - 	train loss: 1.1748, train accuracy: 0.6872
+2021-06-09 11:02:03 - INFO - 	val loss: 0.5678, val accuracy: 0.8314
+2021-06-09 11:02:59 - INFO - 
+Epoch 13/31
+2021-06-09 11:02:59 - INFO - Learning rate [0.01]
+2021-06-09 11:08:37 - INFO - 	train loss: 1.1115, train accuracy: 0.7004
+2021-06-09 11:10:40 - INFO - 	val loss: 0.6862, val accuracy: 0.8078
+2021-06-09 11:10:40 - INFO - 
+Epoch 14/31
+2021-06-09 11:10:40 - INFO - Learning rate [0.01]
+2021-06-09 11:16:20 - INFO - 	train loss: 1.0535, train accuracy: 0.7129
+2021-06-09 11:18:23 - INFO - 	val loss: 0.4045, val accuracy: 0.8748
+2021-06-09 11:19:16 - INFO - 
+Epoch 15/31
+2021-06-09 11:19:16 - INFO - Learning rate [0.01]
+2021-06-09 11:24:54 - INFO - 	train loss: 1.0161, train accuracy: 0.7218
+2021-06-09 11:26:57 - INFO - 	val loss: 0.4101, val accuracy: 0.8776
+2021-06-09 11:27:50 - INFO - 
+Epoch 16/31
+2021-06-09 11:27:50 - INFO - Learning rate [0.01]
+2021-06-09 11:33:28 - INFO - 	train loss: 0.9615, train accuracy: 0.7373
+2021-06-09 11:35:31 - INFO - 	val loss: 0.3693, val accuracy: 0.8889
+2021-06-09 11:36:28 - INFO - 
+Epoch 17/31
+2021-06-09 11:36:28 - INFO - Learning rate [0.01]
+2021-06-09 11:42:06 - INFO - 	train loss: 0.9219, train accuracy: 0.7453
+2021-06-09 11:44:09 - INFO - 	val loss: 0.3308, val accuracy: 0.8948
+2021-06-09 11:45:02 - INFO - 
+Epoch 18/31
+2021-06-09 11:45:02 - INFO - Learning rate [0.01]
+2021-06-09 11:50:40 - INFO - 	train loss: 0.8669, train accuracy: 0.7590
+2021-06-09 11:52:44 - INFO - 	val loss: 0.3952, val accuracy: 0.8833
+2021-06-09 11:52:44 - INFO - 
+Epoch 19/31
+2021-06-09 11:52:44 - INFO - Learning rate [0.01]
+2021-06-09 11:58:24 - INFO - 	train loss: 0.8458, train accuracy: 0.7681
+2021-06-09 12:00:28 - INFO - 	val loss: 0.2347, val accuracy: 0.9249
+2021-06-09 12:01:23 - INFO - 
+Epoch 20/31
+2021-06-09 12:01:23 - INFO - Learning rate [0.01]
+2021-06-09 12:07:01 - INFO - 	train loss: 0.8049, train accuracy: 0.7785
+2021-06-09 12:09:04 - INFO - 	val loss: 0.2414, val accuracy: 0.9215
+2021-06-09 12:09:04 - INFO - 
+Epoch 21/31
+2021-06-09 12:09:04 - INFO - Learning rate [0.01]
+2021-06-09 12:14:45 - INFO - 	train loss: 0.7823, train accuracy: 0.7837
+2021-06-09 12:16:48 - INFO - 	val loss: 0.2583, val accuracy: 0.9191
+2021-06-09 12:16:48 - INFO - 
+Epoch 22/31
+2021-06-09 12:16:48 - INFO - Learning rate [0.01]
+2021-06-09 12:22:28 - INFO - 	train loss: 0.7608, train accuracy: 0.7890
+2021-06-09 12:24:32 - INFO - 	val loss: 0.2012, val accuracy: 0.9354
+2021-06-09 12:25:26 - INFO - 
+Epoch 23/31
+2021-06-09 12:25:26 - INFO - Learning rate [0.01]
+2021-06-09 12:31:04 - INFO - 	train loss: 0.7429, train accuracy: 0.7938
+2021-06-09 12:33:08 - INFO - 	val loss: 0.1830, val accuracy: 0.9391
+2021-06-09 12:34:01 - INFO - 
+Epoch 24/31
+2021-06-09 12:34:01 - INFO - Learning rate [0.01]
+2021-06-09 12:39:39 - INFO - 	train loss: 0.7118, train accuracy: 0.8012
+2021-06-09 12:41:42 - INFO - 	val loss: 0.1613, val accuracy: 0.9472
+2021-06-09 12:42:55 - INFO - 
+Epoch 25/31
+2021-06-09 12:42:55 - INFO - Learning rate [0.01]
+2021-06-09 12:48:32 - INFO - 	train loss: 0.6864, train accuracy: 0.8067
+2021-06-09 12:50:36 - INFO - 	val loss: 0.1797, val accuracy: 0.9431
+2021-06-09 12:50:36 - INFO - 
+Epoch 26/31
+2021-06-09 12:50:36 - INFO - Learning rate [0.01]
+2021-06-09 12:56:16 - INFO - 	train loss: 0.6640, train accuracy: 0.8123
+2021-06-09 12:58:20 - INFO - 	val loss: 0.2008, val accuracy: 0.9377
+2021-06-09 12:58:20 - INFO - 
+Epoch 27/31
+2021-06-09 12:58:20 - INFO - Learning rate [0.01]
+2021-06-09 13:04:00 - INFO - 	train loss: 0.6554, train accuracy: 0.8169
+2021-06-09 13:06:04 - INFO - 	val loss: 0.1613, val accuracy: 0.9481
+2021-06-09 13:06:54 - INFO - 
+Epoch 28/31
+2021-06-09 13:06:54 - INFO - Learning rate [0.01]
+2021-06-09 13:12:33 - INFO - 	train loss: 0.6401, train accuracy: 0.8219
+2021-06-09 13:14:36 - INFO - 	val loss: 0.1309, val accuracy: 0.9579
+2021-06-09 13:15:24 - INFO - 
+Epoch 29/31
+2021-06-09 13:15:24 - INFO - Learning rate [0.01]
+2021-06-09 13:21:02 - INFO - 	train loss: 0.5898, train accuracy: 0.8322
+2021-06-09 13:23:05 - INFO - 	val loss: 0.1507, val accuracy: 0.9511
+2021-06-09 13:23:05 - INFO - 
+Epoch 30/31
+2021-06-09 13:23:05 - INFO - Learning rate [0.001]
+2021-06-09 13:28:46 - INFO - 	train loss: 0.4383, train accuracy: 0.8741
+2021-06-09 13:30:49 - INFO - 	val loss: 0.0299, val accuracy: 0.9912
+2021-06-09 13:31:53 - INFO - 
+Epoch 31/31
+2021-06-09 13:31:53 - INFO - Learning rate [0.001]
+2021-06-09 13:37:30 - INFO - 	train loss: 0.3561, train accuracy: 0.8985
+2021-06-09 13:39:34 - INFO - 	val loss: 0.0236, val accuracy: 0.9928
+2021-06-09 13:40:32 - INFO - Best validation accuracy: 0.992822
