@@ -1,0 +1,1 @@
+pred: ramen noodle | Accuracy: 91.02 %

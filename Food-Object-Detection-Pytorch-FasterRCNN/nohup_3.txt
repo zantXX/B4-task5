@@ -1,0 +1,2 @@
+pred: soba noodle | Accuracy: 95.03 %
+pred: green salad | Accuracy: 74.29 %

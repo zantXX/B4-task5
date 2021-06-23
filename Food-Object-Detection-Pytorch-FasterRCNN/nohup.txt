@@ -1,0 +1,26 @@
+/home/yanai-lab/yamamoto-k/.local/lib/python3.7/site-packages/torch/nn/functional.py:3500: UserWarning: The default behavior for interpolate/upsample with float scale_factor changed in 1.6.0 to align with other frameworks/libraries, and now uses scale_factor directly, instead of relying on the computed output size. If you wish to restore the old behavior, please set recompute_scale_factor=True. See the documentation of nn.Upsample for details. 
+  "The default behavior for interpolate/upsample with float scale_factor changed "
+Traceback (most recent call last):
+  File "mainObjDet.py", line 185, in <module>
+    main()
+  File "mainObjDet.py", line 175, in main
+    model, optimizer, data_loader, device, epoch, print_freq=10)
+  File "/host/space0/yamamoto-k/jupyter/notebook/B4-5/Food-Object-Detection-Pytorch-FasterRCNN/engine.py", line 30, in train_one_epoch
+    loss_dict = model(images, targets)
+  File "/home/yanai-lab/yamamoto-k/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.7/site-packages/torchvision/models/detection/generalized_rcnn.py", line 70, in forward
+    proposals, proposal_losses = self.rpn(images, features, targets)
+  File "/home/yanai-lab/yamamoto-k/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.7/site-packages/torchvision/models/detection/rpn.py", line 488, in forward
+    boxes, scores = self.filter_proposals(proposals, objectness, images.image_sizes, num_anchors_per_level)
+  File "/usr/local/anaconda3/lib/python3.7/site-packages/torchvision/models/detection/rpn.py", line 410, in filter_proposals
+    keep = box_ops.batched_nms(boxes, scores, lvl, self.nms_thresh)
+  File "/usr/local/anaconda3/lib/python3.7/site-packages/torchvision/ops/boxes.py", line 75, in batched_nms
+    keep = nms(boxes_for_nms, scores, iou_threshold)
+  File "/usr/local/anaconda3/lib/python3.7/site-packages/torchvision/ops/boxes.py", line 35, in nms
+    return torch.ops.torchvision.nms(boxes, scores, iou_threshold)
+  File "/home/yanai-lab/yamamoto-k/.local/lib/python3.7/site-packages/torch/_ops.py", line 60, in __getattr__
+    op = torch._C._jit_get_operation(qualified_op_name)
+RuntimeError: No such operator torchvision::nms
